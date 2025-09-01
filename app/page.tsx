@@ -164,8 +164,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       <Navigation />
-
-  <section className="relative h-screen flex items-center justify-center overflow-hidden">
+<section className="relative h-screen flex items-center justify-center overflow-hidden bg-black">
   {/* Background Video */}
   <video
     autoPlay
@@ -176,17 +175,17 @@ export default function HomePage() {
     className="absolute inset-0 w-full h-full object-cover z-0"
   >
     <source src="/videos/IMG_9875(4).MP4" type="video/mp4" />
-      Sizning browseringiz video tagini qo‘llab-quvvatlamaydi.
+    Sizning browseringiz video tagini qo‘llab-quvvatlamaydi.
   </video>
 
-  {/* Overlay (gradient) */}
-  <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/30 to-black/40 z-10" />
+  {/* Overlay (gradient) — kerak bo‘lsa, gradientni juda engil qilish yoki butunlay olib tashlash */}
+  <div className="absolute inset-0 bg-black/20 z-10" />
 
   {/* Kontent */}
   <div className="relative z-20 text-center text-white max-w-full mx-auto px-4">
     <div className="mb-6">
       <Badge variant="secondary" className="mb-4 text-sm px-4 py-2 bg-white/10 text-white border-white/20">
-        O'zbekistonning #1 tibbiyot markazi  
+        O'zbekistonning 1 tibbiyot markazi  
       </Badge>
     </div>
 
@@ -196,7 +195,7 @@ export default function HomePage() {
 
     <div className="space-y-4 mb-8">
       <p className="text-xl sm:text-2xl md:text-3xl font-semibold text-balance text-primary-foreground">
-        "Bizga eng qimmatli narsa — bu sizning sog'lig'ingiz" va pulingiz
+        "Bizga eng qimmatli narsa — bu sizning sog'lig'ingiz" 
       </p>
       <p className="text-base sm:text-lg md:text-xl text-white/90 max-w-3xl mx-auto text-pretty">
         O'zbekistonning eng yirik xususiy tibbiyot markazi - zamonaviy texnologiyalar va tajribali shifokorlar bilan
