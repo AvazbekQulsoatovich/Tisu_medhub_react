@@ -86,6 +86,7 @@ export default function ServicesPage() {
       icon: Stethoscope,
       services: [
         "Buyrak toshlari davolash",
+        "HoLEP - Prostata bezini lazer usulida operatsiya qilish",
         "Prostatit terapiyasi",
         "Urologik operatsiyalar",
         "Erkaklar salomatligi",

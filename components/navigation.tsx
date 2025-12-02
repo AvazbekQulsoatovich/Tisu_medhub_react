@@ -139,9 +139,9 @@ export function Navigation() {
             ))}
             <div className="pt-4 border-t">
               <Button asChild className="w-full hover:scale-105 transition-transform duration-200">
-                <a href="tel:+998954120707" className="flex items-center justify-center space-x-2">
+                <a href="tel:+998554522222" className="flex items-center justify-center space-x-2">
                   <Phone className="w-4 h-4" />
-                  <span>+998 95 412 07 07</span>
+                  <span>+998554522222</span>
                 </a>
               </Button>
             </div>
