@@ -99,7 +99,7 @@ export default function HomePage() {
             <li>Yurak aritmiyalari</li>
             <li>Yurak yetishmovchiligi</li>
           </ul>
-          <p className="text-primary font-medium">Shifokorlar: Dr. Nematova Gulnora, Dr. Karimov Aziz</p>
+          <p className="text-primary font-medium">Shifokor: Dr. Jo'rayeva Sabohat Bahadirovna</p>
         </div>
       ),
     },
@@ -127,7 +127,8 @@ export default function HomePage() {
             <li>Parkinson kasalligi</li>
             <li>Asab tizimi shikastlanishlari</li>
           </ul>
-          <p className="text-primary font-medium">Shifokorlar: Dr. Rahimov Bobur, Dr. Toshev Anvar</p>
+          <p className="text-primary font-medium">Shifokor: Dr. Ibodullayev Saydulla
+</p>
         </div>
       ),
     },
@@ -298,16 +299,7 @@ export default function HomePage() {
             ))}
           </div>
 
-          <div className="text-center">
-            <Button
-              size="lg"
-              variant="outline"
-              className="text-lg px-8 py-6 hover:bg-primary hover:text-primary-foreground transition-colors bg-transparent"
-            >
-              Barcha xizmatlarni ko'rish
-              <ArrowRight className="w-5 h-5 ml-2" />
-            </Button>
-          </div>
+       
         </div>
       </section>
 
