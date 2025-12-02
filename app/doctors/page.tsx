@@ -27,124 +27,220 @@ export default function DoctorsPage() {
   const doctors = [
     {
       id: 1,
-      name: "Dr. Akmal Karimov",
-      specialty: "Kardiolog",
-      experience: "18 yil",
-      education: "Germaniya, Berlin",
-      rating: 4.9,
-      image: "/professional-male-doctor-cardiologist.png",
-      phone: "+998901234567",
-      instagram: "@dr_karimov",
-      surgeries: 850,
-      specializations: ["Yurak operatsiyalari", "Aritmiya davolash", "Kateterizatsiya"],
-      achievements: ["Germaniya sertifikati", "500+ muvaffaqiyatli operatsiya", "Kardiologiya bo'yicha PhD"],
-      bio: "18 yillik tajribaga ega kardiolog. Germaniyada malaka oshirgan va zamonaviy yurak operatsiyalari bo'yicha mutaxassis.",
-    },
-    {
-      id: 2,
-      name: "Dr. Nilufar Abdullayeva",
-      specialty: "Nevropatolog",
-      experience: "15 yil",
-      education: "Rossiya, Moskva",
-      rating: 4.8,
-      image: "/professional-female-doctor-neurologist.png",
-      phone: "+998901234568",
-      instagram: "@dr_nilufar",
-      surgeries: 420,
-      specializations: ["Insult reabilitatsiyasi", "Epilepsiya", "Migren terapiyasi"],
-      achievements: ["Moskva tibbiyot akademiyasi", "Nevrologiya bo'yicha professor", "300+ bemor sog'aygan"],
-      bio: "Nevrologiya sohasida 15 yillik tajriba. Rossiyada malaka oshirgan va neyrojarrohlik amaliyotlari bo'yicha ekspert.",
-    },
-    {
-      id: 3,
-      name: "Dr. Sardor Toshmatov",
-      specialty: "Oftalmolog",
-      experience: "12 yil",
-      education: "Turkiya, Istanbul",
-      rating: 4.9,
-      image: "/professional-male-doctor-ophthalmologist.png",
-      phone: "+998901234569",
-      instagram: "@dr_sardor_eye",
-      surgeries: 1200,
-      specializations: ["Katarakt operatsiyasi", "Lazer terapiya", "Ko'z protezlash"],
-      achievements: ["Turkiya sertifikati", "1000+ katarakt operatsiyasi", "Lazer terapiya mutaxassisi"],
-      bio: "Ko'z kasalliklari bo'yicha 12 yillik tajriba. Turkiyada zamonaviy oftalmologiya usullarini o'rgangan.",
-    },
-    {
-      id: 4,
-      name: "Dr. Gulnora Rahimova",
-      specialty: "Ginekolog",
-      experience: "20 yil",
-      education: "Fransiya, Parij",
-      rating: 5.0,
-      image: "/professional-female-doctor-gynecologist.png",
-      phone: "+998901234570",
-      instagram: "@dr_gulnora",
-      surgeries: 950,
-      specializations: ["Tug'ruq yordami", "Ginekologik operatsiyalar", "Bepushtlik davolash"],
-      achievements: ["Parij tibbiyot universiteti", "Ginekologiya professori", "800+ muvaffaqiyatli tug'ruq"],
-      bio: "20 yillik tajribaga ega ginekolog. Fransiyada malaka oshirgan va reproduktiv salomatlik bo'yicha ekspert.",
-    },
-    {
-      id: 5,
-      name: "Dr. Bobur Ergashev",
-      specialty: "Urolog",
-      experience: "14 yil",
-      education: "AQSH, Nyu-York",
-      rating: 4.8,
-      image: "/professional-male-doctor-urologist.png",
-      phone: "+998901234571",
-      instagram: "@dr_bobur_uro",
-      surgeries: 680,
-      specializations: ["Buyrak operatsiyalari", "Prostatit davolash", "Erkaklar salomatligi"],
-      achievements: ["AQSH sertifikati", "Urologiya bo'yicha PhD", "500+ buyrak operatsiyasi"],
-      bio: "Urologiya sohasida 14 yillik tajriba. AQSHda zamonaviy urologik operatsiyalar bo'yicha malaka oshirgan.",
-    },
-    {
-      id: 6,
-      name: "Dr. Feruza Normatova",
-      specialty: "Proktolog (Ayol)",
+      name: "Dr. Ilyos Akhmedovich",
+      specialty: "Urolog Androlog",
       experience: "10 yil",
-      education: "Italiya, Milan",
-      rating: 4.9,
-      image: "/professional-female-doctor-proctologist.png",
-      phone: "+998901234572",
-      instagram: "@dr_feruza_procto",
-      surgeries: 320,
-      specializations: ["Gemorroyni davolash", "Anal fissura", "Kolorektal operatsiyalar"],
-      achievements: ["Milan universiteti", "Proktologiya mutaxassisi", "Minimal invaziv operatsiyalar"],
-      bio: "Ayol proktolog, 10 yillik tajriba. Italiyada zamonaviy proktologiya usullarini o'rgangan va ayol bemorlar uchun qulay muhit yaratadi.",
+      education: "xitoy, koreya, Turkiya, qozog`iston qirg`iziston ",
+      rating: 5,
+      image: "/professional-male-doctor-cardiologist.png",
+      phone: "+9989912338833",
+      instagram: "@xursandovilyos5",
+      surgeries: 500,
+      specializations: ["Holep operatsiyalari", "Buyrak tosh kasalliklar", "Varekatsele"],
+      achievements: [ "500+ muvaffaqiyatli operatsiya", "Urologiya bo'yicha PhD"],
+      bio: "18 yillik tajribaga ega urolog. Xitoda malaka oshirgan va zamonaviy holep operatsiyalari bo'yicha mutaxassis.",
     },
     {
-      id: 7,
-      name: "Dr. Jasur Mirzayev",
-      specialty: "Ortoped",
-      experience: "16 yil",
-      education: "Yaponiya, Tokio",
-      rating: 4.8,
-      image: "/professional-male-doctor-orthopedist.png",
-      phone: "+998901234573",
-      instagram: "@dr_jasur_ortho",
-      surgeries: 750,
-      specializations: ["Endoprotezlash", "Artoskopiya", "Sport jarohatlari"],
-      achievements: ["Tokio universiteti", "Ortopediya professori", "600+ endoprotez operatsiyasi"],
-      bio: "Ortopediya bo'yicha 16 yillik tajriba. Yaponiyada zamonaviy ortopedik operatsiyalar bo'yicha malaka oshirgan.",
-    },
+  id: 2,
+  name: "Dr. Ibodullayev Saydulla",
+  specialty: "Nevropatolog",
+  experience: "15 yil",
+  education: "O‘zbekiston, Rossiya, Turkiya, Janubiy Koreya",
+  rating: 4.9,
+  image: "/doctor-neurology-specialist.png",
+  phone: "+99894 454-22-26",
+  instagram: "@dr.ibodullayev04",
+  
+  specializations: [
+    "Insultdan keyingi reabilitatsiya",
+    "Epilepsiya kasalligi davolash",
+    "Migren va bosh og‘rig‘i terapiyasi",
+    "Parkinson kasalligi nazorati",
+    "Uyqu buzilishi va nevrozlar"
+  ],
+  
+  achievements: [
+    "Rossiyaning yetakchi nevrologiya markazlarida malaka oshirgan",
+    "Yiliga 300+ bemorda muvaffaqiyatli reabilitatsiya",
+    "Neyrologiya bo‘yicha xalqaro konferensiya ishtirokchisi"
+  ],
+
+  bio: "15 yillik tajribaga ega malakali nevropatolog. Miya va asab tizimi kasalliklarini aniqlash, davolash va reabilitatsiya bo‘yicha mutaxassis. Har bir bemorga individual yondashuv."
+},
     {
-      id: 8,
-      name: "Dr. Madina Sultanova",
-      specialty: "Dermatolog",
-      experience: "11 yil",
-      education: "Shveytsariya, Tsyurix",
-      rating: 4.9,
-      image: "/dermatologist-female-professional.png",
-      phone: "+998901234574",
-      instagram: "@dr_madina_derm",
-      surgeries: 450,
-      specializations: ["Teri kasalliklari", "Kosmetik dermatologiya", "Lazer terapiya"],
-      achievements: ["Tsyurix universiteti", "Dermatologiya mutaxassisi", "Lazer terapiya sertifikati"],
-      bio: "Dermatologiya sohasida 11 yillik tajriba. Shveytsariyada kosmetik dermatologiya bo'yicha malaka oshirgan.",
-    },
+  id: 3,
+  name: "Dr. Latipov Djavdat Axmedovich",
+  specialty: "Ortoped-Travmatolog",
+  experience: "18 yil",
+  education: "Turkiya, Istanbul; Rossiya; O‘zbekiston",
+  rating: 4.9,
+  image: "/orthopedic-doctor-specialist.png",
+  phone: "+99890 747-35-53",
+  instagram: "@dr_latipov_djavdat",
+
+  surgeries: 1200,
+
+  specializations: [
+    "Tizza bo‘g‘imi artroskopiyasi",
+    "Suzak va sinishlar jarrohligi",
+    "Orqa miya va bo‘g‘im og‘riqlarini davolash",
+    "Sport jarohatlari terapiyasi",
+    "Protezlash (sun’iy bo‘g‘im o‘rnatish)"
+  ],
+
+  achievements: [
+    "Turkiyada bo‘g‘im jarrohligi bo‘yicha malaka oshirgan",
+    "1200+ muvaffaqiyatli jarrohlik amaliyoti",
+    "Sport ortopediyasi bo‘yicha ekspert"
+  ],
+
+  bio: "18 yillik tajribaga ega ortoped-travmatolog. Bo‘g‘imlar, suyak tizimi kasalliklari va sport jarohatlarini zamonaviy texnologiyalar yordamida davolaydi."
+},
+  
+     {
+  id: 4,
+  name: "Dr. Toshmurodov Akmal",
+  specialty: "Otorinolaringolog (LOR)",
+  experience: "8 yil",
+  education: "Samarqand davlat tibbiyot universiteti, LOR yo‘nalishi",
+  rating: 4.8,
+  image: "/ent-specialist-male-doctor.png",
+  phone: "+99893 636-77-55",
+  instagram: "@toshmurodov162",
+  surgeries: 950,
+
+  specializations: [
+    "Quloq-burun-tomoq operatsiyalari",
+    "Endoskopik sinus jarrohligi",
+    "Tonsillektomiya (bodomsimon bez olib tashlash)",
+    "Bolaning adenoidi va poliplari",
+    "Ovoz buzilishlari va eshitish pasayishi"
+  ],
+
+  achievements: [
+    "Endoskopik LOR operatsiyalari bo‘yicha malaka oshirgan",
+    "950+ muvaffaqiyatli jarrohlik amaliyoti",
+    "Bolalar LOR patologiyalari bo‘yicha yetakchi mutaxassis"
+  ],
+
+  bio: "8 yillik tajribaga ega otorinolaringolog. Quloq, burun va tomoq kasalliklarini zamonaviy texnologiyalar yordamida davolash bo‘yicha mutaxassis. Har bir bemorga alohida yondashuv."
+},
+
+   {
+  id: 5,
+  name: "Dr. Xolimqulova Saodat Yusupovna",
+  specialty: "Ginekolog",
+  experience: "6 yil",
+  education: "Toshkent tibbiyot akademiyasi, Ginekologiya yo‘nalishi",
+  rating: 4.8,
+  image: "/professional-female-doctor-gynecologist.png",
+  phone: "+99897 786-17-00",
+  instagram: "@saodat_yusupovna",
+  surgeries: 680,
+
+  specializations: [
+    "Homiladorlik kuzatuvi va tug‘ruq yordami",
+    "Ginekologik operatsiyalar",
+    "Bepushtlik davolash",
+    "Onkoginekologiya",
+    "Reproduktiv salomatlik masalalari"
+  ],
+
+  achievements: [
+    " Toshkent malaka sertifikati",
+    
+    "500+ muvaffaqiyatli operatsiya"
+  ],
+
+  bio: "6 yillik tajribaga ega ginekolog. Homiladorlik, tug‘ruq va reproduktiv salomatlik bo‘yicha zamonaviy amaliyotlar va davolash usullarini qo‘llaydi."
+},
+
+   {
+  id: 6,
+  name: "Dr. Jo'rayeva Sabohat Bahadirovna",
+  specialty: "Kardiyolog",
+  experience: "13 yil",
+  education: "Toshkent tibbiyot akademiyasi, Kardiyologiya yo‘nalishi",
+  rating: 4.9,
+  image: "/professional-female-doctor-cardiologist.png",
+  phone: "+99890 123-45-72",
+  instagram: "@jorayeyasaboxat",
+  surgeries: 320,
+
+  specializations: [
+    "EKG diagnostikasi",
+    "Ekokardiografiya",
+    "Holter monitoring",
+    "Yurak aritmiyalari davolash",
+    "Yurak kateterizatsiyasi va stentlash"
+  ],
+
+  achievements: [
+   
+    "Minimal invaziv kardiyologik operatsiyalar bo‘yicha ekspert",
+    "320+ muvaffaqiyatli yurak amaliyotlari"
+  ],
+
+  bio: "13 yillik tajribaga ega ayol kardiyolog. Yurak va qon tomir kasalliklarini zamonaviy diagnostika va davolash usullari bilan muolaja qiladi."
+}
+,
+    {
+  id: 7,
+  name: "Dr. Choriyev Abubakir Chorshanbiyevich",
+  specialty: "Bolalar va kattalar nevrologi",
+  experience: "16 yil",
+  education: "Toshkent Pediatriya Instituti, Nevrologiya yo‘nalishi",
+  rating: 4.8,
+  image: "/professional-male-doctor-neurologist.png",
+  phone: "+99891 166-47-48",
+  instagram: "@abubakir_nevrolog",
+  surgeries: 0, // nevrologiyada jarrohlik ko‘p emas
+
+  specializations: [
+    "Epilepsiya davolash",
+    "Migren terapiyasi",
+    "Insult reabilitatsiyasi",
+    "Nevropatologik diagnostika",
+    "Bolalar nevrologiyasi"
+  ],
+
+  achievements: [
+    "Toshkent Pediatriya Instituti, Nevrologiya bo‘yicha malaka",
+    "Nevrologiya bo‘yicha 16 yillik tajriba",
+    "Ko‘plab muvaffaqiyatli nevrologik terapiya va konsultatsiyalar"
+  ],
+
+  bio: "16 yillik tajribaga ega bolalar va kattalar nevrologi. Epilepsiya, migren va insult reabilitatsiyasi bo‘yicha zamonaviy diagnostika va davolash usullarini qo‘llaydi."
+},
+   {
+  id: 8,
+  name: "Dr. Xolboev Norbek Aliniyozovich",
+  specialty: "Pediatr",
+  experience: "11 yil",
+  education: "Toshkent Pediatriya Instituti",
+  rating: 4.9,
+  image: "/professional-male-doctor-pediatrician.png",
+  phone: "+99899 121-21-16",
+  instagram: "@norbekkholboev",
+  surgeries: 0, // pediatriyada jarrohlik odatda yo'q
+
+  specializations: [
+    "Bolalar kasalliklarini diagnostikasi",
+    "Emizikli va bolalar immunizatsiyasi",
+    "Oshqozon-ichak kasalliklari",
+    "Nafas olish yo‘llari kasalliklari",
+    "Rivojlanish va o‘sish monitoringi"
+  ],
+
+  achievements: [
+    "Toshkent Pediatriya Instituti diplom",
+    "11 yillik pediatriya tajribasi",
+    "Ko‘plab muvaffaqiyatli pediatrik muolajalar"
+  ],
+
+  bio: "11 yillik tajribaga ega pediatr. Bolalar kasalliklarini diagnostika va davolash, shuningdek rivojlanish monitoringi bo‘yicha zamonaviy usullarni qo‘llaydi."
+}
+
   ]
 
   const specialties = [
