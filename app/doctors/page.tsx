@@ -50,6 +50,7 @@ export default function DoctorsPage() {
   image: "/doctor-neurology-specialist.png",
   phone: "+99894 454-22-26",
   instagram: "@dr.ibodullayev04",
+  surgeries: 500,
   
   specializations: [
     "Insultdan keyingi reabilitatsiya",

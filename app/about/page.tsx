@@ -234,34 +234,34 @@ export default function AboutPage() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
               </div>
-              <h3 className="text-lg font-semibold">Dr. Alisher Karimov</h3>
+              <h3 className="text-lg font-semibold">Dr. Ilyos Akhmedovich</h3>
               <p className="text-sm text-muted-foreground">Bosh shifokor</p>
             </div>
 
             <div className="text-center group">
               <div className="relative mb-4 overflow-hidden rounded-2xl">
                 <img
-                  src="/professional-female-doctor-neurologist.png"
+                  src="/doctor-neurology-specialist.png"
                   alt="Nevrolog"
                   className="w-full h-64 object-cover transition-transform group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
               </div>
-              <h3 className="text-lg font-semibold">Dr. Nilufar Rahimova</h3>
+              <h3 className="text-lg font-semibold">Dr. Ibodullayev Saydulla</h3>
               <p className="text-sm text-muted-foreground">Nevrolog</p>
             </div>
 
             <div className="text-center group">
               <div className="relative mb-4 overflow-hidden rounded-2xl">
                 <img
-                  src="/professional-male-doctor-ophthalmologist.png"
+                  src="/professional-female-doctor-cardiologist.png"
                   alt="Ko'z shifokori"
                   className="w-full h-64 object-cover transition-transform group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
               </div>
-              <h3 className="text-lg font-semibold">Dr. Bobur Toshev</h3>
-              <p className="text-sm text-muted-foreground">Oftalmolog</p>
+              <h3 className="text-lg font-semibold">Dr. Jo'rayeva Sabohat </h3>
+              <p className="text-sm text-muted-foreground">Kardiyolog</p>
             </div>
 
             <div className="text-center group">
@@ -273,7 +273,7 @@ export default function AboutPage() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
               </div>
-              <h3 className="text-lg font-semibold">Dr. Madina Yusupova</h3>
+              <h3 className="text-lg font-semibold">Dr. Xolimqulova Saodat</h3>
               <p className="text-sm text-muted-foreground">Ginekolog</p>
             </div>
           </div>

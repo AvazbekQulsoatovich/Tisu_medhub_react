@@ -185,7 +185,7 @@ export default function HomePage() {
   <div className="relative z-20 text-center text-white max-w-full mx-auto px-4">
     <div className="mb-6">
       <Badge variant="secondary" className="mb-4 text-sm px-4 py-2 bg-white/10 text-white border-white/20">
-        O'zbekistonning 1 tibbiyot markazi  
+        O'zbekistondagi 1-raqamli tibbiyot markazi  
       </Badge>
     </div>
 
@@ -367,7 +367,7 @@ export default function HomePage() {
 
             <div className="relative group overflow-hidden rounded-2xl shadow-lg">
               <img
-                src="/professional-male-doctor-cardiologist.png"
+                src="modern-medical-clinic-interior-with-doctors-and-pa.png"
                 alt="Professional shifokor"
                 className="w-full h-48 object-cover transition-transform group-hover:scale-105"
               />
@@ -399,17 +399,18 @@ export default function HomePage() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
                 <div className="absolute bottom-4 left-4 text-white">
-                  <Badge className="bg-primary/80 text-white">Kardiolog</Badge>
+                  <Badge className="bg-primary/80 text-white">Urolog Androlog
+</Badge>
                 </div>
               </div>
-              <h3 className="text-lg font-semibold">Dr. Alisher Karimov</h3>
-              <p className="text-sm text-muted-foreground">15 yillik tajriba</p>
+              <h3 className="text-lg font-semibold">Dr. Ilyos Akhmedovich</h3>
+              <p className="text-sm text-muted-foreground">10+ yillik tajriba</p>
             </div>
 
             <div className="text-center group">
               <div className="relative mb-4 overflow-hidden rounded-2xl shadow-lg">
                 <img
-                  src="/professional-female-doctor-neurologist.png"
+                  src="/doctor-neurology-specialist.png"
                   alt="Nevrolog"
                   className="w-full h-64 object-cover transition-transform group-hover:scale-105"
                 />
@@ -418,24 +419,24 @@ export default function HomePage() {
                   <Badge className="bg-primary/80 text-white">Nevrolog</Badge>
                 </div>
               </div>
-              <h3 className="text-lg font-semibold">Dr. Nilufar Rahimova</h3>
-              <p className="text-sm text-muted-foreground">12 yillik tajriba</p>
+              <h3 className="text-lg font-semibold">Dr. Ibodullayev Saydulla</h3>
+              <p className="text-sm text-muted-foreground">15+ yillik tajriba</p>
             </div>
 
             <div className="text-center group">
               <div className="relative mb-4 overflow-hidden rounded-2xl shadow-lg">
                 <img
-                  src="/professional-male-doctor-ophthalmologist.png"
+                  src="/professional-female-doctor-cardiologist.png"
                   alt="Oftalmolog"
                   className="w-full h-64 object-cover transition-transform group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
                 <div className="absolute bottom-4 left-4 text-white">
-                  <Badge className="bg-primary/80 text-white">Oftalmolog</Badge>
+                  <Badge className="bg-primary/80 text-white">Kardiyolog</Badge>
                 </div>
               </div>
-              <h3 className="text-lg font-semibold">Dr. Bobur Toshev</h3>
-              <p className="text-sm text-muted-foreground">10 yillik tajriba</p>
+              <h3 className="text-lg font-semibold">Dr. Jo'rayeva Sabohat Bahadirovna</h3>
+              <p className="text-sm text-muted-foreground">13+ yillik tajriba</p>
             </div>
 
             <div className="text-center group">
