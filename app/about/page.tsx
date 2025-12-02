@@ -369,13 +369,13 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Bizga qo'shiling</h2>
           <p className="text-lg mb-8 text-primary-foreground/90 text-pretty">
-            TISU Medical Hub jamoasiga qo'shiling va sog'liq yo'lida hamkorlik qiling
+            TISU Med Hub jamoasiga qo'shiling va sog'liq yo'lida hamkorlik qiling
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="secondary" asChild>
-              <a href="tel:+998954120707" className="flex items-center">
+              <a href="tel:+998554522222" className="flex items-center">
                 <Phone className="w-5 h-5 mr-2" />
-                +998 95 412 07 07
+                +998 55 452-22-22
               </a>
             </Button>
             <Button

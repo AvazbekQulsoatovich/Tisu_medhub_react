@@ -195,8 +195,7 @@ export default function ServicesPage() {
           </div>
           <div className="bg-primary/5 p-3 rounded-lg">
             <p className="text-sm">
-              <strong>Shifokorlar:</strong> Dr. Nematova Gulnora (15 yillik tajriba), Dr. Karimov Aziz (12 yillik
-              tajriba)
+              <strong>Shifokor:</strong> Dr. Jo'rayeva Sabohat Bahadirovna (13+ yillik tajriba)
             </p>
           </div>
         </div>
@@ -229,7 +228,7 @@ export default function ServicesPage() {
           </div>
           <div className="bg-primary/5 p-3 rounded-lg">
             <p className="text-sm">
-              <strong>Shifokorlar:</strong> Dr. Rahimov Bobur (18 yillik tajriba), Dr. Toshev Anvar (14 yillik tajriba)
+              <strong>Shifokor:</strong> Dr. Ibodullayev Saydulla (8 yillik tajriba)
             </p>
           </div>
         </div>
@@ -352,10 +351,7 @@ export default function ServicesPage() {
                           </li>
                         ))}
                       </ul>
-                      <Button variant="ghost" className="w-full mt-4 text-primary hover:text-primary/80">
-                        Batafsil ma'lumot
-                        <ArrowRight className="w-4 h-4 ml-2" />
-                      </Button>
+                    
                     </CardContent>
                   </Card>
                 ))}

@@ -76,14 +76,15 @@ export function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-primary" />
-                <a href="tel:+998954120707" className="text-sm text-muted hover:text-primary transition-colors">
-                  +998 95 412 07 07
+                <a href="tel:+998554522222" className="text-sm text-muted hover:text-primary transition-colors">
+                 
+                  tel: +998 55 452-22-22
                 </a>
               </div>
               <div className="flex items-center space-x-3">
                 <Instagram className="w-5 h-5 text-primary" />
-                <a href="#" className="text-sm text-muted hover:text-primary transition-colors">
-                  @tisu_medical_hub
+                <a href="https://www.instagram.com/tisu_med_hub?igsh=MXV5cXlkcXVsZjJpMw%3D%3D&utm_source=qr" className="text-sm text-muted hover:text-primary transition-colors">
+                  @tisu_med_hub
                 </a>
               </div>
             </div>
@@ -92,12 +93,10 @@ export function Footer() {
 
         <div className="border-t border-muted/20 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-sm text-muted">© 2024 TISU Medical Hub. Barcha huquqlar himoyalangan.</p>
+            <p className="text-sm text-muted"> © 2025 TISU Med Hub. Barcha huquqlar himoyalangan.</p>
             <div className="flex items-center space-x-4">
-              <span className="text-sm text-muted">JCI akkreditatsiyasi</span>
-              <div className="w-8 h-8 bg-primary/20 rounded flex items-center justify-center">
-                <span className="text-xs font-bold text-primary">JCI</span>
-              </div>
+          
+             
             </div>
           </div>
         </div>

@@ -249,12 +249,7 @@ export default function HomePage() {
                   </div>
                   <h3 className="text-xl font-semibold mb-3 text-balance">{banner.title}</h3>
                   <p className="text-muted-foreground mb-6 text-pretty leading-relaxed">{banner.description}</p>
-                  <Button variant="ghost" className="p-0 h-auto text-primary hover:text-primary/80">
-                    Batafsil ma'lumot{" "}
-                    {React.createElement(ArrowRight, {
-                      className: "w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform",
-                    })}
-                  </Button>
+                 
                 </CardContent>
               </Card>
             ))}
@@ -420,7 +415,7 @@ export default function HomePage() {
                 </div>
               </div>
               <h3 className="text-lg font-semibold">Dr. Ibodullayev Saydulla</h3>
-              <p className="text-sm text-muted-foreground">15+ yillik tajriba</p>
+              <p className="text-sm text-muted-foreground">8+ yillik tajriba</p>
             </div>
 
             <div className="text-center group">
@@ -549,8 +544,9 @@ export default function HomePage() {
               asChild
               className="text-lg px-8 py-6 shadow-lg hover:shadow-xl transition-all"
             >
-              <a href="tel:+998954120707" className="flex items-center">
-                +998 95 412 07 07
+              <a href="tel:+998554522222" className="flex items-center">
+                +998 55 452 22 22
+             
               </a>
             </Button>
             <div className="flex items-center text-primary-foreground/80 text-sm">

@@ -26,25 +26,39 @@ import {
 export default function DoctorsPage() {
   const doctors = [
     {
-      id: 1,
-      name: "Dr. Ilyos Akhmedovich",
-      specialty: "Urolog Androlog",
-      experience: "10 yil",
-      education: "xitoy, koreya, Turkiya, qozog`iston qirg`iziston ",
-      rating: 5,
-      image: "/professional-male-doctor-cardiologist.png",
-      phone: "+9989912338833",
-      instagram: "@xursandovilyos5",
-      surgeries: 500,
-      specializations: ["Holep operatsiyalari", "Buyrak tosh kasalliklar", "Varekatsele"],
-      achievements: [ "500+ muvaffaqiyatli operatsiya", "Urologiya bo'yicha PhD"],
-      bio: "18 yillik tajribaga ega urolog. Xitoda malaka oshirgan va zamonaviy holep operatsiyalari bo'yicha mutaxassis.",
-    },
+  id: 1,
+  name: "Dr. Ilyos Akhmedovich",
+  specialty: "Urolog, Androlog",
+  experience: "15+ yil",
+  education: "Xitoy, Koreya, Turkiya, Qozog‘iston va Qirg‘izistonda malaka oshirgan",
+  rating: 5.0,
+  image: "/professional-male-doctor-cardiologist.png",
+  phone: "+998 91-233-88-33",
+  instagram: "@xursandovilyos5",
+  surgeries: 500,
+
+  specializations: [
+    "HoLEP — Prostata bezini lazer usulida operatsiya qilish",
+    "Buyrak va siydik yo‘llari tosh kasalliklari",
+    "Varikotselni jarrohlik davolash",
+    "Erektil disfunksiya va erkak bepushtligi",
+    "Prostatit va prostata adenomasi"
+  ],
+
+  achievements: [
+    "500+ muvaffaqiyatli operatsiyalar",
+    "Urologiya bo‘yicha ilmiy izlanishlar muallifi",
+    "Xalqaro urologik anjumanlar ishtirokchisi va taqdimotchisi"
+  ],
+
+  bio: "Dr. Ilyos Akhmedovich — 15 yildan ortiq tajribaga ega urolog va androlog. Xitoy, Koreya, Turkiya kabi mamlakatlarda malaka oshirgan. Surxondaryoda yagona xisoblangan HoLEP lazer jarrohligi bo‘yicha yetakchi mutaxassislardan biri bo‘lib, bemorlarga yuqori sifatli tashxis va davolash xizmatini ko‘rsatadi."
+}
+,
     {
   id: 2,
   name: "Dr. Ibodullayev Saydulla",
   specialty: "Nevropatolog",
-  experience: "15 yil",
+  experience: "8+ yil",
   education: "O‘zbekiston, Rossiya, Turkiya, Janubiy Koreya",
   rating: 4.9,
   image: "/doctor-neurology-specialist.png",
@@ -66,13 +80,13 @@ export default function DoctorsPage() {
     "Neyrologiya bo‘yicha xalqaro konferensiya ishtirokchisi"
   ],
 
-  bio: "15 yillik tajribaga ega malakali nevropatolog. Miya va asab tizimi kasalliklarini aniqlash, davolash va reabilitatsiya bo‘yicha mutaxassis. Har bir bemorga individual yondashuv."
+  bio: "8+ yillik tajribaga ega malakali nevropatolog. Miya va asab tizimi kasalliklarini aniqlash, davolash va reabilitatsiya bo‘yicha mutaxassis. Har bir bemorga individual yondashuv."
 },
     {
   id: 3,
   name: "Dr. Latipov Djavdat Axmedovich",
   specialty: "Ortoped-Travmatolog",
-  experience: "18 yil",
+  experience: "15 yil",
   education: "Turkiya, Istanbul; Rossiya; O‘zbekiston",
   rating: 4.9,
   image: "/orthopedic-doctor-specialist.png",
@@ -83,7 +97,7 @@ export default function DoctorsPage() {
 
   specializations: [
     "Tizza bo‘g‘imi artroskopiyasi",
-    "Suzak va sinishlar jarrohligi",
+    "Suyak va sinishlar jarrohligi",
     "Orqa miya va bo‘g‘im og‘riqlarini davolash",
     "Sport jarohatlari terapiyasi",
     "Protezlash (sun’iy bo‘g‘im o‘rnatish)"
@@ -95,7 +109,7 @@ export default function DoctorsPage() {
     "Sport ortopediyasi bo‘yicha ekspert"
   ],
 
-  bio: "18 yillik tajribaga ega ortoped-travmatolog. Bo‘g‘imlar, suyak tizimi kasalliklari va sport jarohatlarini zamonaviy texnologiyalar yordamida davolaydi."
+  bio: "15 yillik tajribaga ega ortoped-travmatolog. Bo‘g‘imlar, suyak tizimi kasalliklari va sport jarohatlarini zamonaviy texnologiyalar yordamida davolaydi."
 },
   
      {
@@ -129,7 +143,7 @@ export default function DoctorsPage() {
 
    {
   id: 5,
-  name: "Dr. Xolimqulova Saodat Yusupovna",
+  name: "Dr. Xonimqulova Saodat Yusupovna",
   specialty: "Ginekolog",
   experience: "6 yil",
   education: "Toshkent tibbiyot akademiyasi, Ginekologiya yo‘nalishi",
@@ -173,7 +187,7 @@ export default function DoctorsPage() {
     "Ekokardiografiya",
     "Holter monitoring",
     "Yurak aritmiyalari davolash",
-    "Yurak kateterizatsiyasi va stentlash"
+                            
   ],
 
   achievements: [
@@ -185,11 +199,12 @@ export default function DoctorsPage() {
   bio: "13 yillik tajribaga ega ayol kardiyolog. Yurak va qon tomir kasalliklarini zamonaviy diagnostika va davolash usullari bilan muolaja qiladi."
 }
 ,
+
     {
   id: 7,
-  name: "Dr. Choriyev Abubakir Chorshanbiyevich",
+  name: "Dr. Choriyev Abubakir Chorshamiyevich",
   specialty: "Bolalar va kattalar nevrologi",
-  experience: "16 yil",
+  experience: "3+ yil",
   education: "Toshkent Pediatriya Instituti, Nevrologiya yo‘nalishi",
   rating: 4.8,
   image: "/professional-male-doctor-neurologist.png",
@@ -207,21 +222,22 @@ export default function DoctorsPage() {
 
   achievements: [
     "Toshkent Pediatriya Instituti, Nevrologiya bo‘yicha malaka",
-    "Nevrologiya bo‘yicha 16 yillik tajriba",
+    "Nevrologiya bo‘yicha 3+ yillik tajriba",
     "Ko‘plab muvaffaqiyatli nevrologik terapiya va konsultatsiyalar"
   ],
 
-  bio: "16 yillik tajribaga ega bolalar va kattalar nevrologi. Epilepsiya, migren va insult reabilitatsiyasi bo‘yicha zamonaviy diagnostika va davolash usullarini qo‘llaydi."
+  bio: "3+ yillik tajribaga ega bolalar va kattalar nevrologi. Epilepsiya, migren va insult reabilitatsiyasi bo‘yicha zamonaviy diagnostika va davolash usullarini qo‘llaydi."
 },
+
    {
   id: 8,
   name: "Dr. Xolboev Norbek Aliniyozovich",
   specialty: "Pediatr",
-  experience: "11 yil",
+  experience: "6+ yil",
   education: "Toshkent Pediatriya Instituti",
   rating: 4.9,
   image: "/professional-male-doctor-pediatrician.png",
-  phone: "+99899 121-21-16",
+  phone: "+998 99 121-21-16",
   instagram: "@norbekkholboev",
   surgeries: 0, // pediatriyada jarrohlik odatda yo'q
 
@@ -235,12 +251,127 @@ export default function DoctorsPage() {
 
   achievements: [
     "Toshkent Pediatriya Instituti diplom",
-    "11 yillik pediatriya tajribasi",
+    "6+ yillik pediatriya tajribasi",
     "Ko‘plab muvaffaqiyatli pediatrik muolajalar"
   ],
 
   bio: "11 yillik tajribaga ega pediatr. Bolalar kasalliklarini diagnostika va davolash, shuningdek rivojlanish monitoringi bo‘yicha zamonaviy usullarni qo‘llaydi."
+},
+{
+  id: 9,
+  name: "Dr. Boyqulov To‘rabek Temirovich",
+  specialty: "Urolog, Androlog, Endourolog",
+  experience: "6+ yil",
+  education: "Toshkent Tibbiyot Akademiyasi",
+  rating: 4.9,
+  image: "/image-removebg-preview (9).png",
+  phone: "+99897 809-30-03",
+  instagram: "@to‘rabek_boyqulov", // agar instagram bo‘lsa o‘zgartirishingiz mumkin
+  surgeries: 120, // urologiyada jarrohlik bo‘ladi, shu sababli son qo‘ydim
+  specializations: [
+    "Buyrak, siydik yo‘llari va prostata kasalliklari",
+    "Andrologik muammolar (bepushtlik, prostatit, varikotsel)",
+    "Endoskopik va lazer usulida jarrohlik amaliyotlar",
+    "Siydik pufagi toshlarini davolash",
+    "Erektil disfunktsiyani davolash"
+  ],
+  achievements: [
+    "O‘zbekistonning yetakchi urologlari ishtirokida seminar va konferensiyalar qatnashchisi",
+    "Minimal invaziv urologik jarrohlik bo‘yicha tajribaga ega",
+    "Ko‘plab muvaffaqiyatli operatsiyalar muallifi"
+  ],
+  bio: "Dr. Boyqulov To‘rabek Temirovich — tajribali urolog va androlog. Bemorlarga zamonaviy tashxis va davolash usullarini qo‘llagan holda sifatli tibbiy yordam ko‘rsatadi. Tug‘ilishdagi muammolar, buyrak va prostata bilan bog‘liq kasalliklar bo‘yicha keng ko‘lamli amaliy tajribaga ega."
 }
+
+,
+{
+  id: 10,
+  name: "Dr. Xamroyev Shaxboz",
+  specialty: "Radiolog",
+  experience: "7+ yil",
+  education: "Samarqand Davlat Tibbiyot Instituti",
+  rating: 4.9,
+  image: "/image-removebg-preview (10).png",
+  phone: "+998 91 970-07-07",
+  instagram: "@shahhamrayev",
+  surgeries: 0,
+
+  specializations: [
+    "Rentgen, UTT va MRT diagnostikasi",
+    "Kompyuter tomografiyasi (KT)",
+    "Pediatrik radiologiya",
+    "Onkologik kasalliklarda erta tashxis",
+    "Neyro­radiologiya"
+  ],
+
+  achievements: [
+    "Tasviriy diagnostika bo‘yicha yetakchi mutaxassislar ishtirokidagi seminarlarda qatnashgan",
+    "KT va MRT bo‘yicha ilg‘or tashxis metodlarini amaliyotga joriy etib kelmoqda",
+    "Ko‘plab murakkab klinik holatlarda to‘g‘ri tashxis qo‘yilishiga hissa qo‘shgan"
+  ],
+
+  bio: "Dr. Xamroyev Shaxboz — 7+ yildan ziyod tajribaga ega radiolog mutaxassis. U Samarqand Davlat Tibbiyot Institutida tahsil olgan. Tasviriy diagnostika sohasida aniqlik va zamonaviy texnologiyalardan foydalanishni ustuvor deb biladi. Turli yoshdagi bemorlarga sifatli va mas’uliyatli tashxis xizmatini ko‘rsatib keladi."
+}
+
+,{
+  id: 11,
+  name: "Dr. Qayumov Bahodir",
+  specialty: "Laboratoriya diagnostikasi mutaxassisi (Laborant)",
+  experience: "6+ yil",
+  education: "Termiz Davlat Universiteti — Biologiya va tibbiy laboratoriya yo‘nalishi",
+  rating: 4.9,
+  image: "/image-removebg-preview (11).png",
+  phone: "+998 94 215-20-45",
+  instagram: "@", // agar instagram bo'lsa qo'shamiz
+  surgeries: 0,
+
+  specializations: [
+    "Qon va biokimyoviy tahlillar",
+    "Immunologik tahlillar",
+    "Mikrobiologik tekshiruvlar",
+    "Virusologik va parazitologik diagnostika",
+    "Profilaktik tahlillar"
+  ],
+
+  achievements: [
+    "Laboratoriya sifat nazorati bo‘yicha tajribaga ega",
+    "Zamonaviy tahlil qurilmalari bilan ishlash malakasi",
+    "Tashxis jarayonida shifokorlar bilan bevosita hamkorlik"
+  ],
+
+  bio: "Qayumov Bahodir — 6 yildan ortiq tajribaga ega laboratoriya diagnostikasi bo‘yicha mutaxassis. U Termiz Davlat Universitetida tahsil olgan. Laboratoriya tahlillari orqali kasalliklarni erta aniqlash va tashxislash jarayonida muhim rol o‘ynaydi. Bemorlar salomatligi uchun javobgarlik va aniqlikni har doim birinchi o‘ringa qo‘yadi."
+}
+,
+{
+  id: 12,
+  name: "Dr. Xakimova Aziza Baxri qizi",
+  specialty: "Ginekolog, UTT mutaxassisi",
+  experience: "7+ yil",
+  education: "Samarqand Davlat Tibbiyot Universiteti",
+  rating: 4.9,
+  image: "/image-removebg-preview (13).png",
+  phone: "+998 97 919-07-92",
+  instagram: "@dr_aziza_xakimova",
+  surgeries: 0,
+
+  specializations: [
+    "Ayollar salomatligi va profilaktika ko‘riklari",
+    "Homiladorlikni kuzatish va UTT diagnostikasi",
+    "Gormonal muammolar tashxisi",
+    "Bepushtlikni diagnostika qilish",
+    "Yumshoq to‘qimalar va kichik tos organlari UTT tekshiruvi"
+  ],
+
+  achievements: [
+    "Ko‘plab bemorlarda homiladorlikni muvaffaqiyatli kuzatish tajribasi",
+    "Ginekologik kasalliklarda erta tashxis qo‘yish bo‘yicha amaliy tajriba",
+    "UTT diagnostikasining zamonaviy usullarini qo‘llab keladi"
+  ],
+
+  bio: "Dr. Xakimova Aziza Baxri qizi — 7 yillik tajribaga ega ginekolog va UTT mutaxassisi. Ayollar salomatligini saqlash, homiladorlikni nazorat qilish va to‘g‘ri tashxis qo‘yishda yuqori mas’uliyat bilan ishlaydi. Bemorlar bilan mehribon va e’tiborli munosabati bilan ajralib turadi."
+}
+
+
 
   ]
 

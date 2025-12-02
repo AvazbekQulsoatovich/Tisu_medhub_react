@@ -66,7 +66,7 @@ export function Navigation() {
             </div>
             <div className="hidden sm:block">
               <span className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">TISU</span>
-              <span className="text-sm text-muted-foreground block">Medical Hub</span>
+              <span className="text-sm text-muted-foreground block">Med Hub</span>
             </div>
           </Link>
 
@@ -91,9 +91,9 @@ export function Navigation() {
           {/* Call Button */}
           <div className="flex items-center space-x-4">
             <Button asChild className="hidden sm:flex hover:scale-105 transition-transform duration-200">
-              <a href="tel:+998954120707" className="flex items-center space-x-2">
+              <a href="tel:+998554522222" className="flex items-center space-x-2">
                 <Phone className="w-4 h-4" />
-                <span>+998 95 412 07 07</span>
+                <span>+998 55 452-22-22</span>
               </a>
             </Button>
 
