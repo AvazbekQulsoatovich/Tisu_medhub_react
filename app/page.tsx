@@ -191,7 +191,7 @@ export default function HomePage() {
     </div>
 
     <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-6 text-balance leading-tight">
-      TISU Medical Hub
+      TISU Med Hub
     </h1>
 
     <div className="space-y-4 mb-8">
